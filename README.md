@@ -66,7 +66,7 @@ A rendszer **3 táblát** használ. A frontend az első látogatáskor generál 
 
 ---
 
-## 4. Projekt menedzment
+## 4. Feladat kiosztás
 ### Publikus felület
 * Bernáth Milán
 ### Admin felület
