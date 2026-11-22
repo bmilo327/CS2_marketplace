@@ -53,7 +53,7 @@ A rendszer **3 táblát** használ. A frontend az első látogatáskor generál 
 ### Termékek (Publikus & Admin)
 * `GET /api/products` – Összes termék lekérdezése
 * `POST /api/products` – Új termék létrehozása (Admin felületről)
-* `DELETE /api/products/:id` – Termék törlése (opcionális)
+* `DELETE /api/products/:id` – Termék törlése
 
 ### Kosár
 * `GET /api/cart?session_id=...` – Aktuális kosár tartalmának lekérése
@@ -62,11 +62,28 @@ A rendszer **3 táblát** használ. A frontend az első látogatáskor generál 
 
 ### Kedvencek
 * `GET /api/favorites?session_id=...` – Kedvencek listájának lekérése
-* `POST /api/favorites/toggle` – Kedvenc hozzáadása vagy eltávolítása (`{ session_id, product_id }`)
+* `POST /api/favorites` – hozzáadás
+* `DELETE /api/favorites/{productId}?session_id=...` – törlés
 
 ---
 
-## 4. Feladat kiosztás
+## 4. Drótvázak
+
+### Publikus felület
+![Publikus felület drótváz](./kepek/publikus_drotvaz.drawio.png)
+
+### Kosár felület
+![Publikus felület drótváz](./kepek/kosar_drotvaz.drawio.png)
+
+### Kedvencek felület
+![Publikus felület drótváz](./kepek/kedvencek_drotvaz.drawio.png)
+
+### Admin felület
+![Publikus felület drótváz](./kepek/admin_drotvaz.drawio.png)
+
+---
+
+## 5. Feladat kiosztás
 ### Publikus felület
 * Bernáth Milán
 ### Admin felület
