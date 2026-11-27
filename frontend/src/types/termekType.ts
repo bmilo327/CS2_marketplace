@@ -1,8 +1,9 @@
 export interface termekType{
-    nev: string,
-    kategoria: string,
-    ritkasag: string,
-    kulso: string | null
-    ar: number,
-    kep: string, 
+    id: number,
+    name: string,
+    category: string,
+    rarity: string,
+    exterior: string | null
+    price: number,
+    image_url: string, 
 }

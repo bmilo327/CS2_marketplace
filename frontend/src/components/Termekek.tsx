@@ -16,7 +16,7 @@ export default function Termekek() {
     }
 
     return (
-        <div>
+        <div className="termekek-lista">
             {termekLista.map((e,i)=>{
                 return(
                     <Termek termek={e} key={i}/>
